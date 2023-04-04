@@ -31,6 +31,10 @@ const LeftContent = () => {
 					<p className={styles.Left__Skill}>Redux</p>
 				
 					<p className={styles.Left__Skill}>Webpack</p>
+
+					<p className={styles.Left__Skill}>Vue</p>
+
+					<p className={styles.Left__Skill}>Vuex</p>
 				
 					<p className={styles.Left__Skill}>Html/Css</p>
 				</div>

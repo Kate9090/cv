@@ -58,5 +58,10 @@
 		padding: 16px;
 		border-radius: 8px;
 		background-color: rgba(75, 68, 68, 0.6);
+		transition: 0.3s;
+
+		&:hover {
+			background-color: rgba(58, 114, 118, 0.6);
+		}
 	}
 }
