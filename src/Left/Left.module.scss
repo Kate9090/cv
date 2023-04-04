@@ -1,0 +1,62 @@
+.Left {
+	width: 20%;
+	min-width: 300px;
+
+	color: #fff;
+
+	background-color: var(--blue);
+
+	&__ImageWrapper {
+		margin: 32px auto;
+		width: 200px;	
+		height: 200px;
+		border-radius: 50%;
+		border: 2px solid #fff;
+
+		background-image: url('../assets/images/me.png');
+		background-size: 200px auto;
+	}
+
+	&__Contacts {
+		margin-left: 32px;
+		margin-bottom: 32px;
+	}
+
+	&__Title {
+		margin-top: 16px;
+		padding-bottom: 16px;
+		border-bottom: 2px solid #fff;
+	}
+
+	&__Line {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		margin-bottom: 16px;
+	}
+
+	&__Label {
+		margin-right: 16px;
+
+		color: rgb(196, 189, 189);
+	}
+
+	&__Contact {
+		padding-right: 16px;
+
+	}
+
+	&__SkillWrapper {
+		display: flex;
+		flex-wrap: wrap; 
+	}
+
+	&__Skill {
+		margin-right: 8px;
+		margin-bottom: 8px;
+		padding: 16px;
+		border-radius: 8px;
+		background-color: rgba(75, 68, 68, 0.6);
+	}
+}
