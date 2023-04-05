@@ -23,11 +23,11 @@ const RightContent = () => {
 						</div>
 						<p className={styles.Right__Description}>
 							Разрабатывала внутреннее ПО на React + Redux/Recoil. 
-							Переводила компоненты на TypeScript.
-							Переводила проект на React 18.
+							Помогла перевести компоненты на TypeScript и на React 18.
 							Отвечала за отображение графиков (ChartJs), таблиц и форм, календарей. 
-							Разрабатывала кастомные компоненты (селекты и автокомплиты с множественным выбором; и простые инпуты и кнопки и тд).
-							Год велась разработка на VueJs в связке с Vuex. Полгода использовала Mobx.
+							Разработала кастомные UI компоненты (селекты и автокомплиты с множественным выбором; и простые инпуты и кнопки и тд).
+							Год вела разработку на VueJs в связке с Vuex и Vuetify, помогла команде Чатов в управлении сотрудниками, отображая информацию по их занятостям в виде дашбордов и граиков.
+							Полгода использовала Mobx с React для отображения визуальной части приложения для выплаты дивидендов.
 						</p>
 					</div>
 				</div>
@@ -40,12 +40,9 @@ const RightContent = () => {
 							ООО Учи.ру
 						</div>
 						<p className={styles.Right__Description}>
-							Разрабатывала внутреннее ПО на React + Redux/Recoil. 
-							Переводила компоненты на TypeScript.
-							Переводила проект на React 18.
-							Отвечала за отображение графиков (ChartJs), таблиц и форм, календарей. 
-							Разрабатывала кастомные компоненты (селекты и автокомплиты с множественным выбором; и простые инпуты и кнопки и тд).
-							Год велась разработка на VueJs в связке с Vuex. Полгода использовала Mobx.
+							Разработала конструктор для создания олимпиад на VueJs.
+							 Ускорила запуск олимпиад. 
+							 Занималась версткой игр и ландингов для олимпиад школьников.
 						</p>
 					</div>
 				</div>
@@ -58,12 +55,7 @@ const RightContent = () => {
 							ООО PayOnline System
 						</div>
 						<p className={styles.Right__Description}>
-							Разрабатывала внутреннее ПО на React + Redux/Recoil. 
-							Переводила компоненты на TypeScript.
-							Переводила проект на React 18.
-							Отвечала за отображение графиков (ChartJs), таблиц и форм, календарей. 
-							Разрабатывала кастомные компоненты (селекты и автокомплиты с множественным выбором; и простые инпуты и кнопки и тд).
-							Год велась разработка на VueJs в связке с Vuex. Полгода использовала Mobx.
+							Разрабатывала адаптивный дизайн приложения для эквайринга и верстала его. 
 						</p>
 					</div>
 				</div>
@@ -72,6 +64,34 @@ const RightContent = () => {
 
 			<section className={styles.Right__EducationWrapper}>
 				<h1 className={styles.Right__Title}>Образование</h1>
+
+				<div className={styles.Right__ExpirienceWrapper}>
+					<div className={styles.Right__Period}>
+					Сентябрь 2011 - Июнь 2013
+					</div>
+					<div className={styles.Right__DescriptionWtapper}>
+						<div className={styles.Right__Organization}>
+							МГТУ им Н.Э. Баумана
+						</div>
+						<p className={styles.Right__Description}>
+							Магистратура: Специальность -  Ракетно-космические композиционные материалы и конструкции. Диплом с отличием.
+						</p>
+					</div>
+				</div>
+
+				<div className={styles.Right__ExpirienceWrapper}>
+					<div className={styles.Right__Period}>
+						Сентябрь 2007 - Июнь 2011
+					</div>
+					<div className={styles.Right__DescriptionWtapper}>
+						<div className={styles.Right__Organization}>
+							МГТУ им Н.Э. Баумана
+						</div>
+						<p className={styles.Right__Description}>
+						Бакалавриат: Специальность - Ракетно-космические композиционные материалы и конструкции. Диплом с отличием.
+						</p>
+					</div>
+				</div>
 			</section>
 		</div>
 	)
