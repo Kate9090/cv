@@ -15,7 +15,7 @@
 	}
 
 	&__JobTitle {
-		margin-bottom: 129px;
+		margin-bottom: 131px;
 		color: var(--blue-gray);
 		font-size: 20px;
 		text-transform: uppercase;
@@ -65,9 +65,22 @@
 		font-size: 18px;
 		line-height: 24px;
 		text-transform: inherit;
+		text-align: justify;
 	}
 
 	&__EducationWrapper {
 		margin-top: 32px;
+	}
+
+	@media only screen and (max-width: 760px) {
+		&__JobTitle {
+			margin-bottom: 84px;
+		}
+	}
+
+	@media only screen and (max-width: 730px) {
+		&__Name, &__JobTitle {
+			display: none;
+		}
 	}
 }

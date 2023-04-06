@@ -1,4 +1,10 @@
 .App {
   display: flex;
   min-height: 100vh;
+  min-width: 380px;
+  overflow: auto;
+
+  @media only screen and (max-width: 730px) {
+		flex-direction: column;
+	}
 }
