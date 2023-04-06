@@ -22,5 +22,5 @@ p {
 :root {
   --blue: rgb(102 138 159);
   --blue-gray: rgb(48, 93, 99);
-  /* --timas-blue: rgb(102 138 159);rgb(57, 158, 172); */
+  --dark-blue: rgb(21 42 45);
 }

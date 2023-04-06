@@ -39,6 +39,8 @@ const LeftContent = () => {
 					<p className={styles.Left__Skill}>React</p>
 				
 					<p className={styles.Left__Skill}>TypeScript</p>
+
+					<p className={styles.Left__Skill}>JavaScript</p>
 				
 					<p className={styles.Left__Skill}>Redux</p>
 				
