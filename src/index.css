@@ -19,6 +19,12 @@ p {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 :root {
   --blue: rgb(102 138 159);
   --blue-gray: rgb(48, 93, 99);

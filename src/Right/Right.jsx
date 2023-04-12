@@ -2,12 +2,25 @@ import React from 'react';
 
 import styles from './Right.module.scss';
 
-const RightContent = () => {
+const DICTIONARY = {
+	ru: {
+		main_name: 'Еремина Екатерина',
+		job_title: 'Фронтенд-разработчик',
+		education_title: 'Образование',
+	},
+	en: {
+		main_name: 'Ekaterina Eremina',
+		job_title: 'Frontend Developer',
+		education_title: 'Education',
+	}
+}
+
+const RightContent = ({lang}) => {
 	return (
 		<div className={styles.Right}>
 			<section>
-				<h1 className={styles.Right__Name}>Еремина Екатерина</h1>
-				<h2 className={styles.Right__JobTitle}>Фронтенд-разработчик</h2>
+				<h1 className={styles.Right__Name}>{DICTIONARY[`${lang}`].main_name}</h1>
+				<h2 className={styles.Right__JobTitle}>{DICTIONARY[`${lang}`].job_title}</h2>
 			</section>
 
 			<section>
@@ -63,7 +76,7 @@ const RightContent = () => {
 			</section>
 
 			<section className={styles.Right__EducationWrapper}>
-				<h1 className={styles.Right__Title}>Образование</h1>
+				<h1 className={styles.Right__Title}>{DICTIONARY[`${lang}`].education_title}</h1>
 
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>

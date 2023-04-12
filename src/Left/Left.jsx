@@ -4,7 +4,24 @@ import styles from './Left.module.scss';
 
 const age = new Date().getFullYear() - new Date(1990, 0, 28).getFullYear();
 
-const LeftContent = () => {
+const DICTIONARY = {
+	ru: {
+		main_name: 'Еремина Екатерина',
+		job_title: 'Фронтенд-разработчик',
+		title: 'Обо мне',
+		age_label: 'возраст',
+		skills: 'Навыки'
+	},
+	en: {
+		main_name: 'Ekaterina Eremina',
+		job_title: 'Frontend Developer',
+		title: 'About me',
+		age_label: 'age',
+		skills: 'Skills'
+	}
+}
+
+const LeftContent = ({lang}) => {
 	return (
 		<div className={styles.Left}>
 			<div className={styles.Left__TitleInfo}>
@@ -12,15 +29,15 @@ const LeftContent = () => {
 					<div className={styles.Left__Image} />
 				</div>
 				<section className={styles.Left__TitleName}>
-					<h1 className={styles.Left__MainName}>Еремина Екатерина</h1>
-					<h2 className={styles.Left__JobTitle}>Фронтенд-разработчик</h2>
+					<h1 className={styles.Left__MainName}>{DICTIONARY[`${lang}`].main_name}</h1>
+					<h2 className={styles.Left__JobTitle}>{DICTIONARY[`${lang}`].job_title}</h2>
 				</section>
 			</div>
 
 			<section className={styles.Left__Contacts}>
-				<h1 className={styles.Left__Title}>Обо мне</h1>
+				<h1 className={styles.Left__Title}>{DICTIONARY[`${lang}`].title}</h1>
 				<div className={styles.Left__Line}>
-				<span className={styles.Left__Label}>возраст</span>
+				<span className={styles.Left__Label}>{DICTIONARY[`${lang}`].age_label}</span>
 					<p className={styles.Left__Contact}>{age}</p>
 				</div>
 				<div className={styles.Left__Line}>
@@ -34,7 +51,7 @@ const LeftContent = () => {
 			</section>
 			
 			<section className={styles.Left__Contacts}>
-				<h1 className={styles.Left__Title}>Навыки</h1>
+				<h1 className={styles.Left__Title}>{DICTIONARY[`${lang}`].skills}</h1>
 				<div className={styles.Left__SkillWrapper}>
 					<p className={styles.Left__Skill}>React</p>
 				

@@ -4,6 +4,27 @@
   min-width: 380px;
   overflow: auto;
 
+  &__LangWrapper {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+
+    display: flex;
+  }
+
+  &__Lang {
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:first-child {
+      margin-right: 16px;
+    }
+
+    &--active {
+      border-bottom: 2px solid var(--dark-blue);
+    }
+  }
+
   @media only screen and (max-width: 730px) {
 		flex-direction: column;
 	}
