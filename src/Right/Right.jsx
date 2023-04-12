@@ -1,19 +1,8 @@
 import React from 'react';
 
-import styles from './Right.module.scss';
+import DICTIONARY from '../commons/dictionary';
 
-const DICTIONARY = {
-	ru: {
-		main_name: 'Еремина Екатерина',
-		job_title: 'Фронтенд-разработчик',
-		education_title: 'Образование',
-	},
-	en: {
-		main_name: 'Ekaterina Eremina',
-		job_title: 'Frontend Developer',
-		education_title: 'Education',
-	}
-}
+import styles from './Right.module.scss';
 
 const RightContent = ({lang}) => {
 	return (
@@ -24,51 +13,44 @@ const RightContent = ({lang}) => {
 			</section>
 
 			<section>
-				<h1 className={styles.Right__Title}>Опыт работы</h1>
+				<h1 className={styles.Right__Title}>{DICTIONARY[`${lang}`].expirience_title}</h1>
 
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>
-						Сентябрь 2019 - февраль 2023
+						{DICTIONARY[`${lang}`].september} 2019 - {DICTIONARY[`${lang}`].february} 2023
 					</div>
 					<div className={styles.Right__DescriptionWtapper}>
 						<div className={styles.Right__Organization}>
-							ПАО Сбербанк
+						 {DICTIONARY[`${lang}`].sberbank}
 						</div>
 						<p className={styles.Right__Description}>
-							Разрабатывала внутреннее ПО на React + Redux/Recoil. 
-							Помогла перевести компоненты на TypeScript и на React 18.
-							Отвечала за отображение графиков (ChartJs), таблиц и форм, календарей. 
-							Разработала кастомные UI компоненты (селекты и автокомплиты с множественным выбором; и простые инпуты и кнопки и тд).
-							Год вела разработку на VueJs в связке с Vuex и Vuetify, помогла команде Чатов в управлении сотрудниками, отображая информацию по их занятостям в виде дашбордов и граиков.
-							Полгода использовала Mobx с React для отображения визуальной части приложения для выплаты дивидендов.
+							{DICTIONARY[`${lang}`].sberbank_expirience}
 						</p>
 					</div>
 				</div>
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>
-						Август 2018 - Август 2019
+						{DICTIONARY[`${lang}`].august} 2018 - {DICTIONARY[`${lang}`].august} 2019
 					</div>
 					<div className={styles.Right__DescriptionWtapper}>
 						<div className={styles.Right__Organization}>
-							ООО Учи.ру
+							{DICTIONARY[`${lang}`].uchiRu}
 						</div>
 						<p className={styles.Right__Description}>
-							Разработала конструктор для создания олимпиад на VueJs.
-							 Ускорила запуск олимпиад. 
-							 Занималась версткой игр и ландингов для олимпиад школьников.
+							{DICTIONARY[`${lang}`].uchiRu_expirience}
 						</p>
 					</div>
 				</div>
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>
-						Январь 2018 - Июль 2018
+						{DICTIONARY[`${lang}`].january} 2018 - {DICTIONARY[`${lang}`].july} 2018
 					</div>
 					<div className={styles.Right__DescriptionWtapper}>
 						<div className={styles.Right__Organization}>
-							ООО PayOnline System
+							{DICTIONARY[`${lang}`].payOnline}
 						</div>
 						<p className={styles.Right__Description}>
-							Разрабатывала адаптивный дизайн приложения для эквайринга и верстала его. 
+							{DICTIONARY[`${lang}`].payOnline_expirience}
 						</p>
 					</div>
 				</div>
@@ -80,28 +62,28 @@ const RightContent = ({lang}) => {
 
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>
-					Сентябрь 2011 - Июнь 2013
+						{DICTIONARY[`${lang}`].september} 2011 - {DICTIONARY[`${lang}`].june} 2013
 					</div>
 					<div className={styles.Right__DescriptionWtapper}>
 						<div className={styles.Right__Organization}>
-							МГТУ им Н.Э. Баумана
+							{DICTIONARY[`${lang}`].MSTU}
 						</div>
 						<p className={styles.Right__Description}>
-							Магистратура: Специальность -  Ракетно-космические композиционные материалы и конструкции. Диплом с отличием.
+							{DICTIONARY[`${lang}`].master_degree}
 						</p>
 					</div>
 				</div>
 
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>
-						Сентябрь 2007 - Июнь 2011
+						{DICTIONARY[`${lang}`].september} 2007 - {DICTIONARY[`${lang}`].june} 2011
 					</div>
 					<div className={styles.Right__DescriptionWtapper}>
 						<div className={styles.Right__Organization}>
-							МГТУ им Н.Э. Баумана
+							{DICTIONARY[`${lang}`].MSTU}
 						</div>
 						<p className={styles.Right__Description}>
-						Бакалавриат: Специальность - Ракетно-космические композиционные материалы и конструкции. Диплом с отличием.
+						 {DICTIONARY[`${lang}`].bachelor_degree}
 						</p>
 					</div>
 				</div>

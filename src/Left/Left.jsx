@@ -1,25 +1,10 @@
 import React from 'react';
 
+import DICTIONARY from '../commons/dictionary';
+
 import styles from './Left.module.scss';
 
 const age = new Date().getFullYear() - new Date(1990, 0, 28).getFullYear();
-
-const DICTIONARY = {
-	ru: {
-		main_name: 'Еремина Екатерина',
-		job_title: 'Фронтенд-разработчик',
-		title: 'Обо мне',
-		age_label: 'возраст',
-		skills: 'Навыки'
-	},
-	en: {
-		main_name: 'Ekaterina Eremina',
-		job_title: 'Frontend Developer',
-		title: 'About me',
-		age_label: 'age',
-		skills: 'Skills'
-	}
-}
 
 const LeftContent = ({lang}) => {
 	return (
