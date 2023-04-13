@@ -17,9 +17,7 @@
 		height: 200px;
 		border-radius: 50%;
 		border: 2px solid #fff;
-
-		background-image: url('../assets/images/me.png');
-		background-size: 200px auto;
+		overflow: hidden;
 	}
 
 	&__TitleName {

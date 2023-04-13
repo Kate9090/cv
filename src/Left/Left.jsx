@@ -3,6 +3,7 @@ import React from 'react';
 import DICTIONARY from '../commons/dictionary';
 
 import styles from './Left.module.scss';
+import ava from '../assets/images/me.png';
 
 const age = new Date().getFullYear() - new Date(1990, 0, 28).getFullYear();
 
@@ -11,7 +12,9 @@ const LeftContent = ({lang}) => {
 		<div className={styles.Left}>
 			<div className={styles.Left__TitleInfo}>
 				<div className={styles.Left__ImageWrapper}>
-					<div className={styles.Left__Image} />
+					<div className={styles.Left__Image}>
+					<img  className={styles.Left__Img} src={ava} alt='avatar' style={{width: 200, height: 200}} />
+					</div>
 				</div>
 				<section className={styles.Left__TitleName}>
 					<h1 className={styles.Left__MainName}>{DICTIONARY[`${lang}`].main_name}</h1>
