@@ -13,7 +13,7 @@ const LeftContent = ({lang}) => {
 			<div className={styles.Left__TitleInfo}>
 				<div className={styles.Left__ImageWrapper}>
 					<div className={styles.Left__Image}>
-					<img  className={styles.Left__Img} src={ava} alt='avatar' style={{width: 200, height: 200}} />
+						<img src={ava} alt='avatar' style={{width: 200, height: 200}} />
 					</div>
 				</div>
 				<section className={styles.Left__TitleName}>
@@ -56,6 +56,16 @@ const LeftContent = ({lang}) => {
 					<p className={styles.Left__Skill}>Vuex</p>
 				
 					<p className={styles.Left__Skill}>Html/Css</p>
+				</div>
+			</section>
+
+			<section className={styles.Left__Contacts}>
+				<h1 className={styles.Left__Title}>{DICTIONARY[`${lang}`].languages}</h1>
+				<div className={styles.Left__SkillWrapper}>
+					<p className={styles.Left__Skill}>{DICTIONARY[`${lang}`].rus}</p>
+				
+					<p className={styles.Left__Skill}>{DICTIONARY[`${lang}`].english}</p>
+
 				</div>
 			</section>
 		</div>
