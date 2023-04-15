@@ -53,9 +53,11 @@ const LeftContent = ({lang}) => {
 
 					<p className={styles.Left__Skill}>Vue</p>
 
-					<p className={styles.Left__Skill}>Vuex</p>
+					<p className={styles.Left__Skill}>Jest</p>
 				
-					<p className={styles.Left__Skill}>Html/Css</p>
+					<p className={styles.Left__Skill}>HTML5/CSS3</p>
+					<p className={styles.Left__Skill}>Git, GitFlow</p>
+					<p className={styles.Left__Skill}>Figma</p>
 				</div>
 			</section>
 

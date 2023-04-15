@@ -28,6 +28,21 @@ const RightContent = ({lang}) => {
 						</p>
 					</div>
 				</div>
+				
+				<div className={styles.Right__ExpirienceWrapper}>
+					<div className={styles.Right__Period}>
+						{DICTIONARY[`${lang}`].december} 2020 - {DICTIONARY[`${lang}`].august} 2021
+					</div>
+					<div className={styles.Right__DescriptionWtapper}>
+						<div className={styles.Right__Organization}>
+							{DICTIONARY[`${lang}`].lipgart}
+						</div>
+						<p className={styles.Right__Description}>
+							{DICTIONARY[`${lang}`].lipgart_expirience}
+						</p>
+					</div>
+				</div>
+				
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>
 						{DICTIONARY[`${lang}`].august} 2018 - {DICTIONARY[`${lang}`].august} 2019
@@ -41,6 +56,7 @@ const RightContent = ({lang}) => {
 						</p>
 					</div>
 				</div>
+
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>
 						{DICTIONARY[`${lang}`].january} 2018 - {DICTIONARY[`${lang}`].july} 2018
