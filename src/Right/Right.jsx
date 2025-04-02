@@ -14,6 +14,20 @@ const RightContent = ({lang}) => {
 
 			<section>
 				<h1 className={styles.Right__Title}>{DICTIONARY[`${lang}`].expirience_title}</h1>
+				
+				<div className={styles.Right__ExpirienceWrapper}>
+					<div className={styles.Right__Period}>
+						{DICTIONARY[`${lang}`].june} 2023 - {DICTIONARY[`${lang}`].present}
+					</div>
+					<div className={styles.Right__DescriptionWtapper}>
+						<div className={styles.Right__Organization}>
+						 {DICTIONARY[`${lang}`].mygames}
+						</div>
+						<p className={styles.Right__Description}>
+							{DICTIONARY[`${lang}`].mygames_expirience}
+						</p>
+					</div>
+				</div>
 
 				<div className={styles.Right__ExpirienceWrapper}>
 					<div className={styles.Right__Period}>

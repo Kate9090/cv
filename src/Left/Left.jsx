@@ -42,18 +42,17 @@ const LeftContent = ({lang}) => {
 				<h1 className={styles.Left__Title}>{DICTIONARY[`${lang}`].skills}</h1>
 				<div className={styles.Left__SkillWrapper}>
 					<p className={styles.Left__Skill}>React</p>
-				
 					<p className={styles.Left__Skill}>TypeScript</p>
+					<p className={styles.Left__Skill}>RTK Query</p>
+					<p className={styles.Left__Skill}>WebSocket</p>
 
 					<p className={styles.Left__Skill}>JavaScript</p>
 				
-					<p className={styles.Left__Skill}>Redux</p>
-				
 					<p className={styles.Left__Skill}>Webpack</p>
-
-					<p className={styles.Left__Skill}>Vue</p>
+					<p className={styles.Left__Skill}>Vite</p>
 
 					<p className={styles.Left__Skill}>Jest</p>
+					<p className={styles.Left__Skill}>Vitest</p>
 				
 					<p className={styles.Left__Skill}>HTML5/CSS3</p>
 					<p className={styles.Left__Skill}>Git, GitFlow</p>
