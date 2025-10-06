@@ -1,86 +1,91 @@
 .Right {
-	padding: 32px;
-	flex-grow: 1;
-	color: var(--blue);
+  padding: 32px;
+  flex-grow: 1;
+  color: var(--blue);
 
-	
-	&__Name {
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  li {
+    margin-left: 16px;
+    list-style: '-   ';
+  }
 
-		margin: 0;
-		margin-top: 16px;
+  &__Name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-		font-size: 40px;
-		text-transform: uppercase;
-	}
+    margin: 0;
+    margin-top: 16px;
 
-	&__JobTitle {
-		margin-bottom: 131px;
-		color: var(--blue-gray);
-		font-size: 20px;
-		text-transform: uppercase;
-	}
+    font-size: 40px;
+    text-transform: uppercase;
+  }
 
-	&__Title {
-		margin-top: 16px;
-		padding-bottom: 16px;
-		border-bottom: 2px solid var(--blue);
-	}
+  &__JobTitle {
+    margin-bottom: 131px;
+    color: var(--blue-gray);
+    font-size: 20px;
+    text-transform: uppercase;
+  }
 
-	&__ExpirienceWrapper {
-		position: relative;
-		display: flex;
-		padding: 8px 16px;
-		border-left: 2px solid var(--blue);
+  &__Title {
+    margin-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--blue);
+  }
 
-		&::before {
-			content: '';
-			position: absolute;
-			top: 8px;
-			left: -9px;
-			width: 16px;
-			height: 16px;
-			border-radius: 50%;
-			background-color: var(--blue);
-		}
-	}
+  &__ExpirienceWrapper {
+    position: relative;
+    display: flex;
+    padding: 8px 16px;
+    border-left: 2px solid var(--blue);
 
-	&__Period {
-		min-width: 150px;
-		width: 150px;
-		font-style: italic;
-	}
+    &::before {
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: -9px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: var(--blue);
+    }
+  }
 
-	&__Organization {
-		margin-bottom: 24px;
-		font-weight: 500;
-		text-transform: uppercase;
-	}
+  &__Period {
+    min-width: 150px;
+    width: 150px;
+    font-style: italic;
+  }
 
-	&__Description {
-		padding-bottom: 16px;
+  &__Organization {
+    margin-bottom: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
 
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  &__Description {
+    padding-bottom: 16px;
 
-		font-size: 18px;
-		line-height: 24px;
-		text-transform: inherit;
-		text-align: justify;
-	}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-	&__EducationWrapper {
-		margin-top: 32px;
-	}
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: inherit;
+    text-align: justify;
+  }
 
-	@media only screen and (max-width: 760px) {
-		&__JobTitle {
-			margin-bottom: 84px;
-		}
-	}
+  &__EducationWrapper {
+    margin-top: 32px;
+  }
 
-	@media only screen and (max-width: 730px) {
-		&__Name, &__JobTitle {
-			display: none;
-		}
-	}
+  @media only screen and (max-width: 760px) {
+    &__JobTitle {
+      margin-bottom: 84px;
+    }
+  }
+
+  @media only screen and (max-width: 730px) {
+    &__Name,
+    &__JobTitle {
+      display: none;
+    }
+  }
 }

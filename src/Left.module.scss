@@ -1,66 +1,65 @@
 .Left {
-	width: 20%;
-	min-width: 300px;
+  width: 20%;
+  min-width: 300px;
 
-	color: #fff;
+  color: #fff;
 
-	background-color: rgb(57, 158, 172);
+  background-color: rgb(57, 158, 172);
 
-	&__ImageWrapper {
-		margin: 32px auto;
-		width: 200px;	
-		height: 200px;
-		border-radius: 50%;
-		border: 2px solid #fff;
+  &__ImageWrapper {
+    margin: 32px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #fff;
 
-		background-image: url('../assets/images/me.png');
-		background-size: 200px auto;
-	}
+    background-image: url('../assets/images/me.png');
+    background-size: 200px auto;
+  }
 
-	&__TitleName {
-		display: inline;
-	}
+  &__TitleName {
+    display: inline;
+  }
 
-	&__Contacts {
-		margin-left: 32px;
-		margin-bottom: 32px;
-	}
+  &__Contacts {
+    margin-left: 32px;
+    margin-bottom: 32px;
+  }
 
-	&__Title {
-		margin-top: 16px;
-		padding-bottom: 16px;
-		border-bottom: 2px solid #fff;
-	}
+  &__Title {
+    margin-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #fff;
+  }
 
-	&__Line {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+  &__Line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-		margin-bottom: 16px;
-	}
+    margin-bottom: 16px;
+  }
 
-	&__Label {
-		margin-right: 16px;
+  &__Label {
+    margin-right: 16px;
 
-		color: rgb(196, 189, 189);
-	}
+    color: rgb(196, 189, 189);
+  }
 
-	&__Contact {
-		padding-right: 16px;
+  &__Contact {
+    padding-right: 16px;
+  }
 
-	}
+  &__SkillWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-	&__SkillWrapper {
-		display: flex;
-		flex-wrap: wrap; 
-	}
-
-	&__Skill {
-		margin-right: 8px;
-		margin-bottom: 8px;
-		padding: 16px;
-		border-radius: 8px;
-		background-color: rgba(75, 68, 68, 0.6);
-	}
+  &__Skill {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgba(75, 68, 68, 0.6);
+  }
 }
