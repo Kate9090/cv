@@ -63,7 +63,29 @@ const RightContent = ({ lang }) => {
           </div>
           <div className={styles.Right__DescriptionWtapper}>
             <div className={styles.Right__Organization}>{DICTIONARY[`${lang}`].sberbank}</div>
-            <p className={styles.Right__Description}>{DICTIONARY[`${lang}`].sberbank_expirience}</p>
+            <p className={styles.Right__Description}>
+              <div>
+                Developed internal web applications for employees and managers at Sberbank, the
+                largest bank in Russia.
+              </div>
+              <div>
+                Built and maintained complex React applications using React 18, TypeScript, Redux,
+                Recoil, and Chart.js for interactive dashboards, tables, and forms.
+              </div>
+              <div>
+                Improved application performance and migrated legacy components to TypeScript,
+                enhancing maintainability and load speed.
+              </div>
+              <div>
+                Created a custom UI library with reusable components (multi-selects, autocompletes,
+                inputs, buttons, calendars), improving development consistency and UX.
+              </div>
+              <div>
+                Earlier, worked with Vue.js, Vuex, and Vuetify to build analytics dashboards
+                visualizing employee workloads.
+              </div>
+              <div>Also used MobX with React for a dividend-management platform.</div>
+            </p>
           </div>
         </div>
 
