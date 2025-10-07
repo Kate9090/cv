@@ -54,6 +54,9 @@ const LeftContent = ({ lang }) => {
           <p className={styles.Left__Skill}>Jest</p>
           <p className={styles.Left__Skill}>Vitest</p>
 
+          <p className={styles.Left__Skill}>Storybook</p>
+          <p className={styles.Left__Skill}>Antd</p>
+
           <p className={styles.Left__Skill}>HTML5/CSS3</p>
           <p className={styles.Left__Skill}>Git, GitFlow</p>
           <p className={styles.Left__Skill}>Figma</p>
