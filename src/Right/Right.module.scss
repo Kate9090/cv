@@ -19,7 +19,7 @@
   }
 
   &__JobTitle {
-    margin-bottom: 131px;
+    margin-bottom: 42px;
     color: var(--blue-gray);
     font-size: 20px;
     text-transform: uppercase;
@@ -27,7 +27,8 @@
 
   &__Title {
     margin-top: 16px;
-    padding-bottom: 16px;
+    font-size: 20px;
+    padding-bottom: 12px;
     border-bottom: 2px solid var(--blue);
   }
 
@@ -56,7 +57,7 @@
   }
 
   &__Organization {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     font-weight: 500;
     text-transform: uppercase;
   }
@@ -67,7 +68,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     font-size: 18px;
-    line-height: 24px;
+    line-height: 22px;
     text-transform: inherit;
     text-align: justify;
   }

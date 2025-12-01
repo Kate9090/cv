@@ -23,31 +23,27 @@ const RightContent = ({ lang }) => {
             <div className={styles.Right__Organization}>{DICTIONARY[`${lang}`].mygames}</div>
             <p className={styles.Right__Description}>
               {/* {DICTIONARY[`${lang}`].mygames_expirience}*/}
-              Developed and maintained internal admin platforms for:
+              Developed and maintained multiple internal tools, including:
               <ul>
-                <li>User management and role assignment</li>
-                <li>Project management</li>
-                <li>Instance deployment for internal projects</li>
-                <li>Knowledge base (internal Confluence-like system)</li>
+                <li>User and role management systems</li>
+                <li>Project management interfaces</li>
+                <li>Instance administration dashboards</li>
+                <li>Internal knowledge base (Confluence-like system)</li>
               </ul>
               <p>
-                Built and improved component library using Ant Design; added Storybook for easier
-                migration to new versions.
+              Improved and extended the internal component library using Ant Design; introduced Storybook to streamline development and support migration to newer versions.
               </p>
-              Optimized performance of main internal project by replacing heavy CSS with lighter
-              alternatives, reducing page load by several seconds. Developed landing page on Next.js
-              for external service adsadvisor.io. Contributed to Mattermost desktop app (React):
+              <p>Optimized performance of the main internal project by replacing heavy CSS solutions with lightweight alternatives, reducing page load times by several seconds. </p>
+              <p>Built a landing page for the external service adsadvisor.io using Next.js</p>
+              <p>Contributed to Mattermost desktop app (React):</p>
               <ul>
                 <li>Expanded user card functionality</li>
-                <li>Expanded user card functionality</li>
-                <li>Added multi-select for posts and various settings</li>
+                <li>Added multi-select for posts and related settings</li>
                 <li>Implemented image attachment during post editing</li>
                 <li>Added “Recents” block for faster navigation</li>
                 <li>Improvements increased usability for managers and staff.</li>
               </ul>
-              Enhanced internal features, maintained legacy code, and fully managed two admin
-              panels.
-              <br />
+              <p>Enhanced internal features, maintained legacy codebases, and fully managed several admin panels (frontend-only).</p>
               <br />
               <div>
                 Stack: React, TypeScript, RTK Query, Next.js, Ant Design, Storybook, open-source

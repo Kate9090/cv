@@ -45,6 +45,9 @@ const LeftContent = ({ lang }) => {
           <p className={styles.Left__Skill}>TypeScript</p>
           <p className={styles.Left__Skill}>RTK Query</p>
           <p className={styles.Left__Skill}>WebSocket</p>
+          
+          <p className={styles.Left__Skill}>Next.js</p>
+          <p className={styles.Left__Skill}>Tailwind</p>
 
           <p className={styles.Left__Skill}>JavaScript</p>
 
