@@ -40,7 +40,7 @@ const DICTIONARY = {
   },
   en: {
     main_name: 'Ekaterina Eremina',
-    job_title: 'Frontend Developer',
+    job_title: 'Frontend Developer (6+ years of experience)',
     title: 'About me',
     age_label: 'age',
     skills: 'Skills',

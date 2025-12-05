@@ -23,6 +23,7 @@
     color: var(--blue-gray);
     font-size: 20px;
     text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   &__Title {
@@ -75,6 +76,26 @@
 
   &__EducationWrapper {
     margin-top: 32px;
+  }
+
+  &__Projects_Wrapper {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 18px;
+
+    li {
+      font-size: 16px;
+    }
+  }
+
+  &__Projects_List {
+    & > li {
+      list-style: none;
+    }
+  }
+
+  &__Projects_Title {
+    font-size: 16px;
   }
 
   @media only screen and (max-width: 760px) {
